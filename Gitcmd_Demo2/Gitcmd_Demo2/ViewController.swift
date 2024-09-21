@@ -20,7 +20,13 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        add()
         printContent("New demo")
+        
+    }
+    
+    func add(){
+        print("Added data")
     }
 
 
