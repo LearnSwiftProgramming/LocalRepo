@@ -21,7 +21,13 @@ class ViewController: UIViewController, UITableViewDataSource {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         mul()
+        add()
         printContent("New demo")
+        
+    }
+    
+    func add(){
+        print("Added data")
     }
     
     func mul(){
