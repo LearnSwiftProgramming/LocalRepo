@@ -20,11 +20,11 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        add()
+        mul()
     }
     
-    func add(){
-        print("calling add")
+    func mul(){
+        print("calling mul")
     }
 
 
